@@ -1,0 +1,52 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+body {
+    text-align: center;
+
+}
+
+article {
+    width: 50em;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+}
+
+a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+#social {
+    padding: 10px;
+    color: black;
+    text-shadow: 3px, 3px, 3px, #aaa;
+
+}
+svg#logo {
+    fill: #666;
+    height: 6vw;
+    margin: 0 auto 0.5em auto;
+}
+
